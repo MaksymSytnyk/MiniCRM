@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+node_modules/
+dist/
+*.tsbuildinfo
+playwright-report/
+test-results/
+*.log
+
+.ruff_cache/
+
+# Local machine state
+.agents/
+.aws/
+.codex/
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
